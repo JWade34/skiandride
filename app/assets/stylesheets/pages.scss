@@ -1,0 +1,136 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* line 3, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/header.scss */
+header {
+  background: url(http://assets.worldwildlife.org/photos/2325/images/hero_small/mountains-hero.jpg?1345838509);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  /* line 8, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/header.scss */
+  header .nav {
+    bottom-padding: 80px; }
+  /* line 12, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/header.scss */
+  header .sit {
+    background: rgba(14, 39, 69, 0.6) no-repeat center center fixed;
+    padding: 6em; }
+  /* line 17, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/header.scss */
+  header h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4em;
+    margin-bottom: 0; }
+  /* line 23, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/header.scss */
+  header h5 {
+    color: #0E2745;
+    margin-top: 0;
+    font-size: 1em; }
+
+/*
+header {
+  background: url(http://assets.worldwildlife.org/photos/2325/images/hero_small/mountains-hero.jpg?1345838509);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .nav {
+    bottom-padding: 80px;
+  }
+
+  .sit {
+    background: rgba(#0E2745, 0.6) no-repeat center center fixed;
+    padding: 6em;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+  h5 {
+    color: $blue;
+    margin-top: 0;
+    font-size: 1em;
+  }
+  text-align: center;
+}
+*/
+/* line 38, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+.col-md-8 {
+  color: #0E2745;
+  text-align: left;
+  padding-top: 50px; }
+  /* line 43, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .col-md-8 h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 3em;
+    margin-bottom: 10px; }
+  /* line 49, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .col-md-8 .author {
+    color: #0E2745;
+    margin-top: 0;
+    font-size: 1em; }
+  /* line 55, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .col-md-8 blockquote {
+    text-align: center;
+    color: #013ADF; }
+
+/* line 62, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+.col-md-4 {
+  padding: 10px;
+  text-align: center;
+  color: #A4A4A4; }
+  /* line 66, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .col-md-4 p {
+    text-align: left; }
+  /* line 69, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .col-md-4 h6 {
+    text-align: left;
+    color: #013ADF; }
+
+/* line 77, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+section {
+  text-align: center;
+  clear: left; }
+  /* line 80, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  section h3 {
+    color: #0E2745;
+    font-size: 25px; }
+
+/* line 86, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+li {
+  display: inline;
+  float: right;
+  padding-top: 30px; }
+
+/* line 92, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+.pics {
+  width: 25%;
+  height: 150px;
+  float: left; }
+  /* line 96, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .pics .overlay {
+    background: rgba(14, 39, 69, 0.6) no-repeat center center fixed;
+    width: 100%;
+    height: 100%; }
+  /* line 102, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .pics:hover .overlay {
+    background: none; }
+
+/* line 109, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #0E2745;
+  color: #D8D8D8;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: x-small; }
+  /* line 119, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+  .footer .logo {
+    padding-top: 25px; }
+    /* line 120, /Users/McKelv1n/Desktop/Atom/getonit/source/stylesheets/surf.scss */
+    .footer .logo img {
+      height: 30px; }
