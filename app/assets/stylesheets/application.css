@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+@import "header";
+@import "footer";
+@import "left_column";
+@import "right_column";

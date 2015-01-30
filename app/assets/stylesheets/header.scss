@@ -1,0 +1,23 @@
+header {
+  background:
+   url(http://assets.worldwildlife.org/photos/2325/images/hero_small/mountains-hero.jpg?1345838509);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  }
+
+  header .nav {
+    bottom-padding: 80px;
+    }
+
+  header .sit {
+    background: rgba(14, 39, 69, 0.6) no-repeat center center fixed;
+    padding: 6em;
+    }
+
+  header h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4em;
+    margin-bottom: 0;
+    }
