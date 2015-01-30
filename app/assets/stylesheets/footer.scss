@@ -1,12 +1,12 @@
 section {
   text-align: center;
   clear: left;
+  h3 {
+    color: #0E2745;
+    font-size: 25px;
+    }
   }
 
-section h3 {
-  color: #0E2745;
-  font-size: 25px;
-  }
 
 li {
   display: inline;
@@ -18,17 +18,18 @@ li {
   width: 25%;
   height: 150px;
   float: left;
-  }
-
-.pics .overlay {
-  background: rgba(14, 39, 69, 0.6) no-repeat center center fixed;
-  width: 100%;
-  height: 100%;
+  color: white;
+  .overlay {
+    background: rgba(14, 39, 69, 0.6) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    }
   }
 
 .pics:hover .overlay {
   background: none;
   }
+
 
 .footer {
   width: 100%;
@@ -39,12 +40,7 @@ li {
   padding-left: 40px;
   padding-right: 40px;
   font-size: x-small;
-  }
-
-.footer .logo {
-  padding-top: 25px; 
-  }
-
-.footer .logo img {
-  height: 30px;
+  img {
+    height: 40%;
+    }
   }
