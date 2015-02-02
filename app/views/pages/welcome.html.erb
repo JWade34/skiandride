@@ -52,6 +52,7 @@
           <li><a href="blog">SKI & RIDE Co. BLOG</a></li>
         </div> -->
 
+
   <body>
     <header>
       <div class="sit">
@@ -106,8 +107,10 @@
           <h6>SIDEBAR SECTION HEADING</h6>
 
           <p>Paradise schuss Brighton biff Kerma Bolton Valley Resort Mission Ridge. Smugglers' Notch steeps Steamboat Skiland ferme Mount Waterman freshies. Chinese downhill Jackson Hole Bridger Bowl out-of-bounds powder stash Fischer Billy Kid chute shred Volkl. Tyrolia Eagle Point Skiland.Paradise schuss Brighton biff</p>
-        </div>
       </div>
+      </div>
+
+
 
 
 
@@ -116,30 +119,24 @@
       <h3 style="text-align: center;"> MOST POPULAR POSTS </h3>
         <div class="container-fluid">
           <div class="row popular-images-row">
+
             <section>
-              <div class="pics" style="background: url(<%= image_path 'right-turn.jpg' %>); background-repeat: no-repeat;
+              <% @posts.each do |post|  %>
+              <%= link_to(post_path(post[0])) do  %>
+
+              <div class="pics" style="background: url(<%= image_path post[1] %>); background-repeat: no-repeat;
               background-size: cover;" >
-                <div class="overlay"><h7>Learn to Turn</h7></div>
+                <div class="overlay"><h7><%= post[0]  %></h7></div>
 
               </div>
+              <% end %>
+              <% end %>
 
-              <div class="pics" style="background: url(<%= image_path 'baby-board.jpg' %>); background-repeat: no-repeat;
-              background-size: cover;">
-                <div class="overlay"><h7>Babies on Boards</h7></div>
-              </div>
-
-              <div class="pics" style="background: url(<%= image_path 'spring-break.jpg' %>); background-repeat: no-repeat;
-              background-size: cover;">
-                <div class="overlay"><h7>Spring Break</h7></div>
-              </div>
-
-              <div class="pics" style="background: url(<%= image_path 'board-bend.jpeg' %>); background-repeat: no-repeat;
-              background-size: cover;">
-            <div class="overlay"><h7>Learn Sweet Jumps</h7></div>
 
           </div>
         </div>
       </div>
+
     </section>
     <div class="footer">
       <div class="logo" style="float:left;"> <img src="http://theironyard.com/images/footer-logo.png" style="preserveAspectRatio=MinYMin slice"> Copyright 2015. All rights reserved.</div>

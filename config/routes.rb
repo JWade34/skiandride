@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   #get 'pages/welcome'
   root 'pages#welcome'
 
+  get "/blogposts/:id" => "posts#show", as: :post
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
